@@ -1,0 +1,387 @@
+h1 {
+  font-size: 10px;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.removeSuggest {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  background-color: rgba(255, 0, 0, 0);
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3826bd;
+  text-decoration: none;
+}
+
+#section1 {
+  background-image: linear-gradient(
+      hsla(231, 74%, 32%, 0.8),
+      hsla(311, 43%, 45%, 0.766)
+    ),
+    url(images/back.jpg);
+  background-size: cover;
+  padding-bottom: 70px;
+  width: 100%;
+}
+.btnlogin {
+  margin: 10px;
+}
+.fstcaroubtn {
+  border-style: solid;
+  border-color: orange;
+  color: orange;
+  padding: 15px;
+  margin-top: 20px;
+  font-weight: bolder;
+  display: inline-block;
+  box-shadow: 1px 2px 4px orange, -1px -2px 4px orange;
+  cursor: pointer;
+}
+.fstcaroubtn:hover {
+  position: relative;
+  transform: scale(1.05);
+  background-color: orange;
+  color: white;
+  text-shadow: 0px 2px black;
+}
+
+.col1 {
+  margin-top: 50px;
+  margin-left: 5px;
+}
+.firstcarouimage {
+  width: 250px;
+  height: 250px;
+  margin: 5px;
+  box-shadow: 3px 3px 6px 3px rgba(208, 0, 255, 0.622);
+  border-radius: 10px;
+}
+
+.carouselitem1 {
+  color: white;
+}
+.navbar1 {
+  padding-left: 50px;
+  padding-right: 80px;
+  padding-top: 20px;
+}
+.carou1 {
+  margin: 60px 200px 40px 200px;
+}
+.navbar3 {
+  padding-left: 150px;
+}
+.nav3link {
+  color: rgb(176, 176, 176);
+  cursor: pointer;
+  background-color: rgb(67, 7, 99);
+  border-radius: 7px;
+
+  font-weight: bold;
+}
+
+.nav3linkactive {
+  color: white;
+}
+.nav3link:hover {
+  color: white;
+}
+.carouhead {
+  font-size: 4rem;
+  color: white;
+  margin-bottom: 30px;
+}
+.caroupara {
+  font-size: 1.2rem;
+}
+#section2 {
+  padding: 60px 150px;
+  text-align: center;
+}
+.col2 {
+  margin-top: 125px;
+}
+.cardpara {
+  font-weight: lighter;
+}
+.cardsec2 {
+  background-image: linear-gradient(45deg, #f5903a, #efffd5);
+  height: 500px;
+  margin-top: 50px;
+  font-size: 1.2rem;
+  font-weight: 200;
+  padding: 8px;
+}
+.coursecard:hover {
+  transform: scale(1.05);
+}
+.boxhead {
+  margin: 0px 155px;
+  color: white;
+  margin-top: 125px;
+}
+
+.navbar2 {
+  color: white;
+}
+.brandspan {
+  font-size: 2rem;
+}
+.sec2head {
+  font-size: 4rem;
+}
+.carou2img {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+}
+
+.explore-btn {
+  padding: 10px;
+  font-size: 1.2rem;
+  border-style: none;
+  border-color: white;
+  color: white;
+  border-width: 1px;
+  margin-left: 20px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.explore-title {
+  color: aliceblue;
+  padding: 2px;
+}
+
+.explore-sec {
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  margin-left: 210px;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 50%;
+  width: 18%;
+  color: lightgreen;
+  background-color: rgb(37, 37, 37);
+  border-style: none;
+  opacity: 0.9;
+}
+
+a.explore-items {
+  height: 3px;
+  font-size: 15px;
+  font-weight: 300;
+  color: lightgreen;
+}
+
+.SearchBarCard {
+  border-radius: 5px;
+  position: absolute;
+  z-index: 2;
+  display: flex;
+
+  flex-direction: column;
+  margin-left: 386px;
+  align-items: flex-start;
+  height: 29%;
+  width: 33.5%;
+  background-color: rgb(255, 255, 255);
+}
+
+.SearchEle {
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  padding: 4px;
+}
+
+.Searchimg {
+  margin: 3px;
+  height: 18px;
+  width: 18px;
+}
+
+.explore-btn:hover {
+  background-color: rgb(37, 37, 37);
+  border-style: none;
+  color: lightgreen;
+}
+.cardbox {
+  color: white;
+  margin: 0px 130px;
+  padding: 20px;
+  padding-bottom: 70px;
+}
+.card {
+  border-style: none;
+  background-color: rgba(0, 0, 255, 0);
+  border-radius: 8px;
+  box-shadow: rgba(52, 65, 152, 0.677) 0px 8px 24px;
+}
+.cardtext {
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: rgba(4, 4, 65, 0.377);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  height: 60px;
+}
+.card:hover .cardimg {
+  filter: grayscale(50%);
+}
+.card:hover .cardtext {
+  color: lightgreen;
+}
+.cardimg {
+  width: 100%;
+  height: 184px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+.card-header {
+  font-size: 30px;
+  color: #7354ca;
+}
+.searchbar {
+  color: white;
+  border-color: white;
+  border-style: solid;
+  border-width: 1px;
+  margin-left: 30px;
+  width: 40%;
+  height: 50px;
+  border-radius: 30px;
+}
+.search-btn {
+  padding: 10px;
+  cursor: pointer;
+  color: rgb(166, 165, 165);
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.search-btn:hover {
+  color: white;
+}
+.loginform {
+  background-color: white;
+  width: 250px;
+  height: 350px;
+  position: absolute;
+  right: 120px;
+  text-align: center;
+  padding: 10px;
+  z-index: 1;
+  top: 75px;
+  border-radius: 11px;
+}
+.logintxt {
+  color: rgb(74, 74, 74);
+}
+.signuplink {
+  color: rgb(75, 75, 215);
+}
+.loginbtn {
+  margin: 20px;
+  width: 85%;
+  height: 40px;
+  color: white;
+  background-color: rgb(63, 63, 208);
+  border-radius: 25px;
+}
+.forgotpass {
+  color: rgb(111, 110, 110);
+  display: block;
+}
+.copyright {
+  color: rgb(142, 142, 142);
+  margin: 550px;
+}
+#section3 {
+  margin-top: 70px;
+  background-color: rgb(0, 0, 0);
+  padding: 70px 0px 90px 0px;
+}
+.mailbtn {
+  left: 550px;
+  margin: 20px;
+
+  color: white;
+  width: 120px;
+  height: 55px;
+  border-radius: 7px;
+}
+#section4 {
+  height: 200px;
+  background-color: black;
+  padding-top: 80px;
+}
+.mailinput {
+  color: rgb(179, 176, 176);
+  margin-left: 500px;
+  border-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgb(111, 111, 111);
+  height: 60px;
+  width: 400px;
+}
+.mailinput::placeholder {
+  color: rgb(179, 176, 176);
+  font-weight: lighter;
+}
+
+.sec3head {
+  font-size: 4rem;
+  text-align: center;
+  margin: 20px;
+  margin-bottom: 30px;
+  color: white;
+}
+.sec3para {
+  color: white;
+  text-align: center;
+}
+.usernameinput {
+  border-style: none;
+  border-bottom-style: solid;
+  margin: 10px;
+  outline: none;
+}
+.bg-dark {
+  background-color: #dc35455e !important;
+}
+.search-input {
+  background-color: rgba(255, 0, 0, 0);
+  color: white;
+  font-size: medium;
+  border-style: none;
+  width: 80%;
+  height: 90%;
+  outline: none;
+}
+.login-section {
+  margin-left: auto;
+}
+
+.hidden {
+  display: none;
+}
+.coursecard {
+  font-family: "Oswald", serif;
+}
